@@ -111,7 +111,7 @@ input[type="number"]::-webkit-inner-spin-button {
     font-size: 18px;
     line-height: .9;
     letter-spacing: -.9px;
-    color: var(--theme-color);
+    color: #fff;
     text-transform: uppercase;
     margin: 0 0 12px;
 }
@@ -155,7 +155,7 @@ input[type="number"]::-webkit-inner-spin-button {
     display: inline-block;
 }
 .secDesc{
-    color: #5e5e5e;
+    color: #fff;
     font-size: 18px;
     line-height: 30px;
     margin: 0 0 36px;

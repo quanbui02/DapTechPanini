@@ -961,19 +961,6 @@ header .menuToggler{
 .SMABody > ul > li > ul > li > ul > li a{
     padding-left: 60px;
 }
-.SMABody ul li.menu-item-has-children > a:after{
-    font-family: 'themewar' !important;
-    content: "\f043";
-    font-size: 15px;
-    font-weight: 400;
-    position: absolute;
-    right: 29px;
-    top: 13px;
-    transition: all ease 300ms;
-    -moz-transition: all ease 300ms;
-    -webkit-transition: all ease 300ms;
-}
-
 
 /*--- Hero Slier ---*/
 .slider_01{
@@ -1962,9 +1949,7 @@ header .menuToggler{
     position: relative;
     transition: all 0.3s ease-in-out;
 }
-.client-slider.owl-carousel a:hover{
-    background: var(--theme-color);
-}
+
 .client-slider.owl-carousel a img{
     max-width: 100%;
     width: auto;
@@ -5262,7 +5247,8 @@ footer.withmailchimp .widget{
     letter-spacing: -.42px;
     margin: 0 0 3px;
 }
-.icon_box_05 p{
+.icon_box_05 p{ 
+    text-align: justify;
     font-size: 17px;
     line-height: 27px;
     color: #646464;
