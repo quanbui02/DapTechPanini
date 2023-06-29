@@ -297,6 +297,17 @@
   .content-blog {
     text-align: justify;
   }
+  .Thumbavt {
+    top:-50px;
+    height: 300px;
+  }
+  .aboutSection01{
+    position: relative;
+    padding: 150px 0 150px;
+}
+.chooseSection .secTitle{
+  margin: 0 0 100px;
+}
 }
 
 /*------------------------------------------------------------------------------------
@@ -705,7 +716,13 @@
   .testimonial01 {
     padding: 0;
   }
-  
+  .Thumbavt {
+    margin-top:75px;
+  }
+  .aboutSection01{
+    position: relative;
+    padding: 120px 0 120px;
+}
 }
 /*------------------------------------------------------------------------------------
 / 3. Responsive For Tab Device
@@ -812,6 +829,13 @@
   }
   .woocommerce table.shop_table td.actions .coupon input[type="text"] {
     width: 240px;
+  }
+  .chooseSection .secTitle{
+    margin: 0 0 100px;
+  }
+  .abThumb__avt {
+    margin-top: -50px;
+    padding: 0 0 50px 0;
   }
   /*-- Cart --*/
 }
@@ -1007,6 +1031,9 @@
   }
   .productItem11 .product_content04 > p {
     margin-left: 0;
+  }
+  .chooseSection .secTitle{
+    margin: 0 0 50px;
   }
 }
 
@@ -1823,4 +1850,11 @@
     -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
   }
+  .aboutSection01{
+    position: relative;
+    padding: 60px 0 60px;
+}
+.chooseSection .secTitle{
+  margin: 0 0 30px;
+}
 }

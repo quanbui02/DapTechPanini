@@ -1037,18 +1037,18 @@ header .menuToggler{
     line-height: 26px !important;
 }
 .slider_02 .tparrows.custom{
-    width: 75px;
+    width: 65px;
     height: 65px;
     background: transparent;
     border: 3px solid #fff;
     color: #fff;
-    border-radius: 0;
+    border-radius: 50%;
     font-size: 15px;
     line-height: 65px;
 }
 .slider_02 .tparrows.custom:hover{
-    background: var(--theme-color);
-    border-color: var(--theme-color);
+    background: #f79029;
+    border-color: #f79029;
     color: #FFF;
 }
 .slider_03 .organ_btn::before,
@@ -1620,6 +1620,24 @@ header .menuToggler{
     position: relative;
     padding: 0 35px 32px;    
     margin-top: -53px;
+}
+
+.author {
+    display:flex;
+    align-items: stretch;
+}
+.name-author {
+    margin-top: 4px;
+}
+.comment-avatar {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+.comment {
+    /* display: inline-block; */
+    text-align: justify;
 }
 .ratings{
     display: flex;
@@ -2654,7 +2672,6 @@ header .menuToggler{
 }
 .testicontent01 .ratings {
     font-size: 18px;
-    color: var(--theme-color);
     letter-spacing: 5px;
     justify-content: center;
     position: relative;
@@ -2991,7 +3008,6 @@ footer .widget .widget_title{
     height: 64px;
     background: #262626;
     border-radius: 50px;
-    color: var(--theme-color);
     line-height: 64px;
     font-size: 20px;
     display: inline-block;
@@ -5226,19 +5242,11 @@ footer.withmailchimp .widget{
     -webkit-transition: all ease 300ms;
 }
 .icon_box_05 .ibImg img{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    height: 100%;
     width: 100%;
     border-radius: 50%;
-}
-.icon_box_05 .ibImg::after {
-    position: absolute;
-    right: -7px;
-    top: 38px;
-    z-index: -1;
-    width: 20px;
-    height: 20px;
-    background: var(--theme-color);
-    content: '';
-    border-radius: 50%;
+    border:1px solid #d13030;
 }
 .icon_box_05 h3{
     font-size: 21px;
