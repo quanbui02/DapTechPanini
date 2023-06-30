@@ -1636,8 +1636,19 @@ header .menuToggler{
     margin-right: 8px;
 }
 .comment {
-    /* display: inline-block; */
     text-align: justify;
+}
+
+.dash { 
+    color:#ffa900;
+}
+.dash:after {
+content: "";
+display: block;
+width: 50%;
+border-bottom: 1px solid #ccc;
+margin: 0 auto;
+margin-top: 8px;    
 }
 .ratings{
     display: flex;
@@ -5249,7 +5260,7 @@ footer.withmailchimp .widget{
     border:1px solid #d13030;
 }
 .icon_box_05 h3{
-    font-size: 21px;
+    font-size: 30px;
     line-height: 28px;
     font-weight: 700;
     letter-spacing: -.42px;

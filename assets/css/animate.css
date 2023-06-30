@@ -3101,6 +3101,21 @@
     animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
   }
 }
+.zoomInOut {
+  animation: zoomInOutAnimation 6s infinite;
+  transform-origin: center;
+}
+
+@keyframes zoomInOutAnimation {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.98);
+  }
+}
+
+
 
 .zoomInUp {
   -webkit-animation-name: zoomInUp;
