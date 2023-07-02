@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5, h6{
     font-family: 'Roboto', sans-serif;
 }
 :root{
-    --theme-color: #62a403;
+    --theme-color: #f79029;
 }
 a{
     color: #232424;
@@ -108,12 +108,15 @@ input[type="number"]::-webkit-inner-spin-button {
 .subTitle{
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     line-height: .9;
     letter-spacing: -.9px;
     color: #fff;
     text-transform: uppercase;
     margin: 0 0 12px;
+}
+.subTitle__Branch {
+    color: var(--theme-color);
 }
 .sbsm{
     color:var(--dark);
@@ -156,7 +159,7 @@ input[type="number"]::-webkit-inner-spin-button {
     display: inline-block;
 }
 .secDesc{
-    color: #fff;
+    color: #5e5e5e;
     font-size: 18px;
     line-height: 30px;
     margin: 0 0 36px;
@@ -291,9 +294,11 @@ input[type="number"]::-webkit-inner-spin-button {
     padding-top: 0;
 }
 @media (min-width: 1600px){
+    
     .container.largeContainer{
         max-width: 1350px;
     }
+
 }
 .SecLayerimg{
     position: absolute;

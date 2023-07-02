@@ -494,6 +494,8 @@
             }
         });
     }
+      
+      
     /*--- Product Silder ---*/
     if($(".productSlider01").length > 0){
        $('.productSlider01').owlCarousel({

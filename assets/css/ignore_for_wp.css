@@ -25,13 +25,13 @@
     margin-bottom: 16px;
 }
 .ab_content_01 .secTitle{
+    text-align: center;
     line-height: 60px;
     margin-bottom: 50px;
 }
 .ab_content_01 .organ_btn{
     margin-top: 30px;
 }
-
 .categpruSection01{
     position: relative;
     background: url(../images/bg/1.jpg) no-repeat center center / cover;
@@ -66,7 +66,7 @@
 }
 .clientLogo01{
     position: relative;
-    background: url(../images/Bapimi/1231231.jpg) no-repeat bottom center #fff;
+    background: url(../images/bg/10.jpg) no-repeat bottom center #fff;
     padding: 110px 0 70px;
     border-radius: 0 0 15px 15px;
 }
@@ -1209,8 +1209,17 @@
 
     .orgAbCon .secTitle02,
     .bl_ctconten02 .secTitle02{
+        text-align: center;
         font-size: 36px;
         line-height: 46px;
+    }
+    .titleImg {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        align-items: center;
+        align-content: center;
+    
     }
     .bl_ctconten02{
         padding: 30px 0 0;
