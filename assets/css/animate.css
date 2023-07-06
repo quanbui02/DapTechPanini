@@ -3102,16 +3102,16 @@
   }
 }
 .zoomInOut {
-  animation: zoomInOutAnimation 6s infinite;
+  animation: zoomInOutAnimation 3s infinite;
   transform-origin: center;
 }
 
 @keyframes zoomInOutAnimation {
   0%, 100% {
-    transform: scale(1);
+    transform: scale(1.1);
   }
   50% {
-    transform: scale(0.98);
+    transform: scale(0.9);
   }
 }
 

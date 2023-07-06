@@ -311,6 +311,7 @@
 .navBar01 {
   margin-left: 5%;
 }
+
 }
 
 /*------------------------------------------------------------------------------------
@@ -1779,7 +1780,7 @@
   }
   .header01.fixedHeader .logo img,
   .header01 .logo img {
-    height: 50px;
+    height: 70px;
   }
   .logo::after {
     right: -17px;
