@@ -119,14 +119,14 @@
     position: relative;
 }
 .logo img{
-    height: 76px;
+    height: 110px;
     max-width: 100%;
 }
 .logo:after{
     position: absolute;
     right: -51px;
-    top: -20px;
-    height: calc(100% + 39px);
+    /* top: -10px; */
+    height: calc(100%);
     width: 1px;
     content: '';
     background: #f1f1f1;
@@ -3609,7 +3609,7 @@ footer.withmailchimp .widget{
     background: #457500;
 }
 .header01.fixedHeader .logo img{
-    height: 55px;
+    height: 80px;
 }
 .header01.fixedHeader .mainMenu > ul > li{
     padding: 34px 0;
@@ -5259,7 +5259,6 @@ footer.withmailchimp .widget{
     height: 100%;
     width: 100%;
     border-radius: 50%;
-    border:1px solid #d13030;
 }
 .icon_box_05 h3{
     font-size: 30px;

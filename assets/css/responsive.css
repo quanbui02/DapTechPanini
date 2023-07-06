@@ -306,7 +306,10 @@
     padding: 150px 0 150px;
 }
 .chooseSection .secTitle{
-  margin: 0 0 100px;
+  margin: 0 0 60px;
+}
+.navBar01 {
+  margin-left: 5%;
 }
 }
 
@@ -732,6 +735,24 @@
 #slidebg3 {
   background-image: url(assets/images/Bapimi/z4445093608108_75019fd8c74807ac0783e7e41c6210a0.jpg);
 }
+.row-wrap-reveser {
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column-reverse;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.row-wrap-reveser-Ad {
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction:row-reverse;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
 }
 /*------------------------------------------------------------------------------------
 / 3. Responsive For Tab Device
@@ -1075,7 +1096,10 @@
     text-align: center;
   }
   .active__block {
-    display:none
+    display:block
+  }
+  .active__Tab {
+    display: none;
   }
 }
 
@@ -1776,6 +1800,7 @@
   .navBar01 {
     padding: 0 15px 0 10px;
     border-radius: 0;
+
   }
   .accessNav .searchBtn,
   .accessNav .wishlistBtn {
@@ -1910,5 +1935,8 @@
 }
 #slidebg3 {
   background-image: url(/assets/images/Bapimi/LogoMobile3.jpg);
+}
+.active__block {
+  display:none
 }
 }

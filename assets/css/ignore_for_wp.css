@@ -599,11 +599,11 @@
     margin-left: 0;
 }
 .chooseSection .abThumb{
-    margin: -60px 0 0 -46px;
+    margin: 0px 0 0 -46px;
 }
 .chooseSection .abThumb img{
-    border:1px solid #ccc;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    /* border:1px solid #ccc;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
     max-width: 515px;
 }
 .productSection08{
@@ -978,7 +978,7 @@
 .blogSectiont04{
 
     position: relative;
-    padding: 80px 0 70px;
+    padding: 140px 0 100px;
 }
 .bl_ctconten02{
     position: relative;
