@@ -1284,23 +1284,8 @@ header .menuToggler{
     opacity: 0;
 }
 .icon_box_02 .ibImg img{
-    width: 30px;
+    width: 100%;
     height: auto;
-}
-.icon_box_02 .ibImg:after{
-    position: absolute;
-    left: 10px;
-    top: 10px;
-    width: calc(100% - 20px);
-    height: calc(100% - 20px);
-    content: '';
-    border-style: solid;
-    border-width: 1px;
-    border-color: #ececec;
-    border-radius: 50%;
-    transition: all ease 300ms;
-    -moz-transition: all ease 300ms;
-    -webkit-transition: all ease 300ms;
 }
 .icon_box_02 h3{
     font-size: 18px;
@@ -5255,10 +5240,8 @@ footer.withmailchimp .widget{
     -webkit-transition: all ease 300ms;
 }
 .icon_box_05 .ibImg img{
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     height: 100%;
     width: 100%;
-    border-radius: 50%;
 }
 .icon_box_05 h3{
     font-size: 30px;
@@ -7088,6 +7071,10 @@ footer.footer_white .widget.contact_widget{
 .icon_box_06 .ibImg img{
     max-width: 100%;
     border-radius: 50%;
+}
+
+.imgOdd {
+    margin-top:-15px;
 }
 .icon_box_06 h3{
     font-size: 17px;

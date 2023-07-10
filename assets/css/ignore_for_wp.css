@@ -77,6 +77,13 @@
     margin-bottom: 15px;
     line-height: 50px;
 }
+
+/* .clientLogo02 {
+    position: relative;
+    background: url(../images/sp/4-14.jpg) no-repeat bottom center #fff;
+    object-fit: cover;
+    padding: 110px 0 70px;
+} */
 .adsSection01{
     position: relative;
     padding: 150px 42px;
