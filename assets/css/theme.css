@@ -2797,7 +2797,7 @@ margin-top: 8px;
 .blogThumb img{
     width: 100%;
     height: 400px;
-    object-fit: cover;
+    border-radius: 10px;
 }
 .blogThumb:before {
     background: rgba(255, 255, 255, 0.3);
@@ -2837,6 +2837,7 @@ margin-top: 8px;
 .blogContent{
     position: relative;
     padding: 15px 0 0;
+    cursor: pointer;
 }
 .bmeta{
     display: flex;

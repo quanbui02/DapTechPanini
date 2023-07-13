@@ -503,6 +503,10 @@
 .bp{
     background: url(../images/bg/10.jpg) no-repeat center center / cover;
     padding-bottom: 140px;
+    border-radius: 60px;
+}
+.active-tablet-1199 {
+    display: none;
 }
 .clientLogo02{
     position: relative;
@@ -595,6 +599,7 @@
     position: relative;
     padding: 80px 0 80px;
     background: url(../images/bg/10.jpg) no-repeat center center / cover;
+    border-radius: 60px;
 }
 .icon_box_05.ml29{
     margin-left: 30px;
@@ -963,7 +968,6 @@
     padding: 185px 0 115px;
     background: url(../images/home4/10.png) no-repeat top center;
 }
-
 
 .proSection10{
     position: relative;

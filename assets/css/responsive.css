@@ -316,6 +316,24 @@
  margin-bottom: 60px;   
 }
 
+.mt8-solid {
+  margin: -100px 120px 0;
+}
+#uu-diem {
+  margin-bottom: 120px;
+  padding-left: 180px;
+}
+.desktop-device {
+  position: relative;
+}
+.content-uudiem {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  z-index: 5;
+  background-color: rgba(223, 142, 11, 0.3);
+}
+
 }
 
 /*------------------------------------------------------------------------------------
@@ -758,6 +776,22 @@
   margin-right: -15px;
   margin-left: -15px;
 }
+.content-uudiem {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  z-index: 5;
+  background-color: rgba(223, 142, 11, 0.3);
+}
+.active__Tab-Tablet {
+  display: none;
+}
+.active-tablet-1199 {
+  display: block;
+}
+.mt8-solid {
+  margin: -100px 120px 0;
+}
 }
 /*------------------------------------------------------------------------------------
 / 3. Responsive For Tab Device
@@ -880,6 +914,16 @@
   }
   #slidebg3 {
     background-image: url(/assets/images/Bapimi/LogoMobile3.jpg);
+  }
+  .content-uudiem {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    z-index: 5;
+    background-color: rgba(223, 142, 11, 0.3);
+  }
+  .mt8-solid {
+    margin: -100px 120px 0;
   }
   /*-- Cart --*/
 }
@@ -1105,6 +1149,16 @@
   }
   .active__Tab {
     display: none;
+  }
+  .content-uudiem {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    z-index: 5;
+    background-color: rgba(223, 142, 11, 0.3);
+  }
+  .mt8-solid {
+    margin: -100px 120px 0;
   }
 }
 
@@ -1943,5 +1997,27 @@
 }
 .active__block {
   display:none
+}
+.bgr {
+  padding:100px 0;
+}
+.content-uudiem {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  z-index: 5;
+  background-color: rgba(223, 142, 11, 0.3);
+}
+.secTitle-mobile {
+position: relative;
+top:-80px;
+}
+.mt8-solid {
+  position: relative;
+  top:-35px;
+  left:-10px;
+}
+.icon_box_02 p{
+  text-align: justify;
 }
 }
