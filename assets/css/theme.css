@@ -5243,6 +5243,13 @@ footer.withmailchimp .widget{
     height: 100%;
     width: 100%;
 }
+
+.icon_box_05 .ibImg .img-dochua {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+
 .icon_box_05 h3{
     font-size: 30px;
     line-height: 28px;

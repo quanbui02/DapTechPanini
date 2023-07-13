@@ -3108,13 +3108,28 @@
 
 @keyframes zoomInOutAnimation {
   0%, 100% {
-    transform: scale(1.1);
+    transform: scale(1.05);
   }
   50% {
     transform: scale(0.9);
   }
 }
 
+
+.zoomInOutHealthy {
+  animation: zoomInOutHealthyAnimation 3s infinite;
+  transform-origin: center;
+}
+
+@keyframes zoomInOutHealthyAnimation {
+  0%, 100% {
+    transform: scale(1.2);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(0.9);
+  }
+}
 
 .bounceDown {
   position: absolute;

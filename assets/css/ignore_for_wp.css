@@ -188,9 +188,7 @@
 }
 .blogSectiont01{
     position: relative;
-    background: url(../images/bg/6.png) no-repeat center center / cover #f4f4f4;
     padding: 80px 0 300px;
-    border-radius: 15px 15px 0 0;
 }
 .adsSection02{
     position: relative;
@@ -503,8 +501,8 @@
     margin-bottom: 56px;
 }
 .bp{
+    background: url(../images/bg/10.jpg) no-repeat center center / cover;
     padding-bottom: 140px;
-    background: url(../images/bg/10.png) no-repeat center bottom #f4f4f4;
 }
 .clientLogo02{
     position: relative;
