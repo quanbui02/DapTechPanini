@@ -2172,9 +2172,12 @@ top:-80px;
     margin: 0;
   padding: 8px 0;
 }
+.text-uppercase {
+  text-align: center;
+}
 
 .box-content-info {
-  transform: translate(-3%, 8%);
+  transform: translate(-4%, 8%);
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
