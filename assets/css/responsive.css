@@ -2211,4 +2211,7 @@ top:-80px;
 .bp {
   display: none;
 }
+.mobile-children {
+  display: none !important;
+}
 }
