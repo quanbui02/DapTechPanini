@@ -1627,9 +1627,6 @@ header .menuToggler{
     text-align: justify;
 }
 
-.dash { 
-    color:#ffa900;
-}
 .dash:after {
 content: "";
 display: block;
@@ -2874,7 +2871,6 @@ margin-top: 8px;
 .blogContent h3{
     font-size: 24px;
     line-height: 33px;
-    color: #26263e;
     letter-spacing: -.48px;
     margin: 0;
 }

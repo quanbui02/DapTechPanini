@@ -85,7 +85,7 @@ h5,
 h6 {
   font-family: "Roboto", sans-serif;
   font-weight: 800;
-  color: var(--theme-color) !important;
+  color: var(--theme-color);
   line-height: 1.5;
   margin: 0 0 15px;
 }
@@ -174,7 +174,6 @@ input[type="number"]::-webkit-inner-spin-button {
   color: var(--theme-color);
 }
 .secTitle02 {
-  color: #1e1e1e;
   font-size: 45px;
   line-height: 55px;
   letter-spacing: -1.35px;
