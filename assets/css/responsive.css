@@ -25,9 +25,25 @@
 --------------------------------------------------------------------------------------*/
 
 @media (min-width:1700px) {
-  .uudiemSection01 {
-    padding: 140px 0 0px 0;
-  }
+  .blogSectiont04 {
+    position: relative;
+    margin: 140px 0 100px;
+    padding:0;
+}
+  .chooseSection {
+    position: relative;
+    margin: 80px 0 80px;
+}
+.aboutSection01 {
+  position: relative;
+  margin: 180px 0 100px;
+}
+.uudiemSection01 {
+  margin: 180px 0 140px 0;
+}
+.all-device-large {
+  transform: translateY(-80px);
+}
 }
 
 @media (min-width: 1200px) and (max-width: 1700px) {
