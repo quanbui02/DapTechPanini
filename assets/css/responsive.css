@@ -44,6 +44,15 @@
 .all-device-large {
   transform: translateY(-80px);
 }
+.box-content-info {
+  transform: translate(-10%, 0);
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.list-content-Panini {
+  list-style: none;
+  padding: 8px;
+}
 }
 
 @media (min-width: 1200px) and (max-width: 1700px) {
