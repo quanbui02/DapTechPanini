@@ -24,6 +24,12 @@
 / 1. Responsive For Extra large Device 2
 --------------------------------------------------------------------------------------*/
 
+@media (min-width:1700px) {
+  .uudiemSection01 {
+    padding: 140px 0 0px 0;
+  }
+}
+
 @media (min-width: 1200px) and (max-width: 1700px) {
   .header04 .mainMenu ul li .sub-menu.mega_menu {
     left: -136px;
