@@ -607,6 +607,7 @@
 .icon_box_05.text-right.ml29{
     margin-right: 30px;
     margin-left: 0;
+    min-width: 390px;
 }
 .chooseSection .abThumb{
     margin: 0px 0 0 -46px;

@@ -404,6 +404,39 @@
 }
 }
 
+
+
+@media (min-width: 1200px) and (max-width: 1600px){
+  /* .device-desktop {
+    transform: translateX(-2.5%);
+  } */
+  .text__content {
+    width: auto;
+  }
+  .left {
+    left: 0;
+  }
+  .icon_box_05.text-right.ml29 {
+    min-width: 0 !important;
+  }
+  .abCus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    left: 18px;
+    top:-100px
+  }
+  .chooseSection .abThumb img {
+    width: 100%;
+    height: auto;
+  }
+  .abThumb__avt {
+    transform: translateX(-80px);
+  }
+}
+
+
 /*------------------------------------------------------------------------------------
 / 2. Desktop Device
 /--------------------------------------------------------------------------------------*/
