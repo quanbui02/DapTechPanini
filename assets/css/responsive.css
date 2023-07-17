@@ -334,6 +334,42 @@
   background-color: rgba(223, 142, 11, 0.3);
 }
 
+.list-content-Panini {
+  list-style: none;
+  padding: 8px;
+}
+
+.content-panini {
+  font-size: 17px;
+    color: #5e5e5e;
+    line-height: 23px;
+    margin: 0;
+  padding: 8px 0;
+}
+
+.box-content-info {
+  transform: translate(-10%, 0);
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.img-content-panini {
+  height: 660px; width: 100%;
+}
+
+.img-content-panini img {
+  margin-top: -100px;
+  width: 100%;
+  height: 660px;
+  border-radius: 20px;
+  transform: translate(-10%, 2%);
+}
+
+.icon-check {
+  font-size: 10rem;
+}
+.uudiemSection01 {
+  padding:140px 0 0px 0;
+}
 }
 
 /*------------------------------------------------------------------------------------
@@ -792,6 +828,42 @@
 .mt8-solid {
   margin: -100px 120px 0;
 }
+.list-content-Panini {
+  list-style: none;
+  padding: 8px;
+}
+
+.content-panini {
+  font-size: 17px;
+    color: #5e5e5e;
+    line-height: 23px;
+    margin: 0;
+  padding: 8px 0;
+}
+
+.box-content-info {
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.img-content-panini {
+  height: 660px; width: 100%;
+}
+
+.img-content-panini img {
+  margin-top: -100px;
+  width: 100%;
+  height: 660px;
+  border-radius: 20px;
+  transform: translate(0%, -5%);
+}
+
+.icon-check {
+  font-size: 10rem;
+}
+.uudiemSection01 {
+  padding: 120px 0 60px 0;
+}
 }
 /*------------------------------------------------------------------------------------
 / 3. Responsive For Tab Device
@@ -924,6 +996,38 @@
   }
   .mt8-solid {
     margin: -100px 120px 0;
+  }
+  .list-content-Panini {
+    list-style: none;
+    padding: 8px;
+  }
+  
+  .content-panini {
+    font-size: 17px;
+      color: #5e5e5e;
+      line-height: 23px;
+      margin: 0;
+    padding: 8px 0;
+  }
+  
+  .box-content-info {
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+  .img-content-panini {
+    height: 660px; width: 100%;
+  }
+  
+  .img-content-panini img {
+    margin-top: -100px;
+    width: 100%;
+    height: 660px;
+    border-radius: 20px;
+    transform: translate(-4%, 1%);
+  }
+  
+  .icon-check {
+    font-size: 10rem;
   }
   /*-- Cart --*/
 }
@@ -1159,6 +1263,42 @@
   }
   .mt8-solid {
     margin: -100px 120px 0;
+  }
+  .list-content-Panini {
+    list-style: none;
+    padding: 8px;
+  }
+  
+  .content-panini {
+    font-size: 17px;
+      color: #5e5e5e;
+      line-height: 23px;
+      margin: 0;
+    padding: 8px 0;
+  }
+  
+  .box-content-info {
+    transform: translate(-20%, -8%);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+  .img-content-panini {
+    height: 660px; width: 100%;
+  }
+  
+  .img-content-panini img {
+    margin-top: -100px;
+    width: 100%;
+    height: 660px;
+    border-radius: 20px;
+    transform: translate(12%, 1%);
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  }
+  .icon-check {
+    font-size: 10rem;
+  }
+  .uudiemSection01 {
+    padding:80px 0;
   }
 }
 
@@ -2019,5 +2159,42 @@ top:-80px;
 }
 .icon_box_02 p{
   text-align: justify;
+}
+.list-content-Panini {
+  list-style: none;
+  padding: 8px;
+}
+
+.content-panini {
+  font-size: 17px;
+    color: #5e5e5e;
+    line-height: 23px;
+    margin: 0;
+  padding: 8px 0;
+}
+
+.box-content-info {
+  transform: translate(-3%, 8%);
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.img-content-panini {
+  height: 660px; width: 100%;
+}
+
+.img-content-panini img {
+  margin-top: -100px;
+  width: 100%;
+  height: 660px;
+  border-radius: 20px;
+  transform: translate(-4%, 1%);
+  display: none;
+}
+.uudiemSection01 {
+  padding-top:20px;
+}
+
+.icon-check {
+  font-size: 10rem;
 }
 }
