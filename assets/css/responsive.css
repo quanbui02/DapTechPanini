@@ -2278,4 +2278,13 @@ top:-80px;
 .mobile-children {
   display: none !important;
 }
+.icon_box_05.text-right.ml29 {
+  min-width: 0 !important;
+}
+.item-hastag {
+  display: none;
+}
+.content p {
+  padding: 0 20px;
+}
 }
