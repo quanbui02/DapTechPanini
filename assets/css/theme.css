@@ -9650,6 +9650,38 @@ footer.footer_white .widget.contact_widget{
   opacity: 1;
 }
 
+
+/* Banner-advertise */
+
+.banner-client {
+    background: url(../images/Bapimi/BanerBg.jpg) no-repeat center center / cover;;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 40px 0;
+  }
+  .list-hastag {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+  .item-hastag {
+    color: #fff;
+    font-size: 2rem;
+    padding: 8px 24px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+  }
+  .content p {
+    font-size: 3rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-weight: 1000;
+    line-height: 4rem;
+    text-align: center;
+  }
+
 /*-- Offer Product ---*/
 .ctaOffer{
     position: relative;
