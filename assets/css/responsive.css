@@ -2287,4 +2287,24 @@ top:-80px;
 .content p {
   padding: 0 20px;
 }
+.blogSectiont04 {
+  padding:20px 0 20px !important;
+}
+.chooseSection {
+  padding:20px 0 20px !important;
+}
+.ab_content_01 .secTitle {
+  margin-bottom: 30px !important;
+}
+
+.aboutSection01 {
+  padding:50px 0 0 !important;
+}
+.box-content-info {
+  margin-top: -30px !important;
+}
+.uudiemSection01 {
+  padding: 40px 0 !important;
+  margin-top: -30px !important;
+}
 }
