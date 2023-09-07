@@ -745,7 +745,6 @@
 .testimonialSec01 {
     border-top-left-radius: 60px;
     border-top-right-radius: 60px;
-    background: url(../images/bg/10.jpg) no-repeat center center / cover;
 }
 
 .productSection08 {
@@ -1210,11 +1209,11 @@
 
 .bl_ctconten02 {
     position: relative;
-    padding: 50px 0 0 34px;
+    /* padding: 50px 0 0 34px; */
 }
 
 .bl_ctconten02 .secTitle02 {
-    font-size: 50px;
+    font-size: 48px;
     line-height: 60px;
     letter-spacing: -2px;
     margin: 0 0 4px;

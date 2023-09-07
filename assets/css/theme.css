@@ -128,8 +128,8 @@
 }
 
 .logo img {
-  height: 110px;
-  max-width: 100%;
+  width: 141px;
+  object-fit: contain;
 }
 
 .logo:after {
