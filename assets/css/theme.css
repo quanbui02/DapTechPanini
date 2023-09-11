@@ -3499,6 +3499,7 @@ footer .widget ul li a:hover {
 .aboutWidget {
   position: relative;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .aboutWidget img {
@@ -3511,7 +3512,7 @@ footer .widget ul li a:hover {
   color: #a4a4a4;
   line-height: 25px;
   font-weight: 500;
-  margin: 27px 0 39px;
+  margin: 12px 0 24px;
 }
 
 .abSocial {
