@@ -3411,7 +3411,7 @@ footer .ctaMail button:hover {
 footer .widget {
   position: relative;
   margin: 0;
-  padding: 109px 0 50px;
+  padding-top:16px;
 }
 
 footer .widget .widget_title {
@@ -3499,7 +3499,6 @@ footer .widget ul li a:hover {
 .aboutWidget {
   position: relative;
   text-align: center;
-  margin: -32px 70px 0;
 }
 
 .aboutWidget img {
@@ -3561,7 +3560,7 @@ footer.withmailchimp .widget {
   color: #a4a4a4;
   font-weight: 500;
   line-height: 30px;
-  padding: 50px 0 50px;
+  padding: 6px 0 6px;
 }
 
 .copyright p {
