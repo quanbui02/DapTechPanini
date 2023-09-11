@@ -108,7 +108,7 @@
             onHoverStop: "off",
             arrows: {
                 style: "custom",
-                enable: true,
+                enable: false,
                 hide_onmobile: true,
                 hide_under: 600,
                 hide_onleave: false,
