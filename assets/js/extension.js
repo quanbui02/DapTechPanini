@@ -56,6 +56,12 @@ $(document).ready(function() {
       $('.blog3').click(function() {
         showPopup('#popup3');
       });
+      $('.blog4').click(function() {
+        showPopup('#popup4');
+      });
+      $('.blog5-header').click(function() {
+        showPopup('#popup4');
+      });
   });
 
   // update img for Mobile
