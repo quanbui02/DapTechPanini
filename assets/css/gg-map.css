@@ -168,7 +168,7 @@ select.filter_value_warrd {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding-bottom: 15px;
+        padding:0 0 15px 0;
     }
 .mobile-device {
     padding:0;
