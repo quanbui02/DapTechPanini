@@ -24,13 +24,14 @@ var listDisGGmap = [
         khuvuc: "hanoi",
         zip:"100000",
         sdt: "0979 390 174"
-    },
+    },  
 ];
 
 var tacccElements = document.querySelectorAll(".taccc");
 var listMap = document.querySelector(".no-bullets");
 var mapElement = document.getElementById("map");
 var selectedIndex = -1;
+var searchResults = [];
 
 function render(listDisGGmap) { 
     const htmls = listDisGGmap.map((dt, index) => {
@@ -49,16 +50,17 @@ function render(listDisGGmap) {
 }
 
 const showInfo = (index) => {
-    if (selectedIndex !== -1) {
-        const previouslySelectedLi = document.querySelector(`[data-index="${selectedIndex}"]`);
-        previouslySelectedLi.classList.remove("selected");
-    }
-    
     selectedIndex = index;
+
+    const allLiElements = document.querySelectorAll(".taccc");
+    allLiElements.forEach((li) => {
+        li.classList.remove("selected");
+    });
     const selectedLi = document.querySelector(`[data-index="${selectedIndex}"]`);
     selectedLi.classList.add("selected");
-
-    mapElement.src = listDisGGmap[index].diachi;
+    const mapSource = searchResults.length > 0 ? searchResults[index].diachi : listDisGGmap[index].diachi;
+    mapElement.src = mapSource;
+    
 }
 
 
@@ -69,7 +71,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 function searchShops(keyword, province) {
-    var searchResults = [];
+    var newSearchResults = [];
+
     for (var shop of listDisGGmap) {
         var shopName = shop.tench.toLowerCase();
         var shopDc = shop.ten.toLowerCase();
@@ -77,11 +80,21 @@ function searchShops(keyword, province) {
         var keywordMatch = shopName.includes(keyword.toLowerCase()) || shopDc.includes(keyword.toLowerCase());
         var provinceMatch = province === '0' || shopProvince === province;
         if ((keywordMatch && provinceMatch) || (keyword === '' && provinceMatch)) {
-            searchResults.push(shop);
+            newSearchResults.push(shop);
         }
     }
+    
+    if (newSearchResults.length > 0) {
+        searchResults = newSearchResults;
+        mapElement.src = searchResults[0].diachi;
+    } else {
+        searchResults = [];
+        mapElement.src = '';
+    }
+    
     render(searchResults);
 }
+
 
 
 loadShops = () => {
