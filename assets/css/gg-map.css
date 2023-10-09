@@ -1,0 +1,353 @@
+/* .content-pages {} */
+
+.map-container {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#map {
+  height: 100%;
+  min-height: 663px;
+  width: 100%;
+}
+
+.header_filter_shops {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0 15px 15px;
+}
+
+.scroll-y {
+  height: 450px;
+  overflow-y: auto;
+}
+
+.scroll-y h6 {
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.shop-filter {
+  display: flex;
+  gap: 25px;
+  width: 80%;
+  align-items: flex-end;
+}
+
+.filter_shops_name input {
+  height: 42px !important;
+  border-radius: 5px !important;
+}
+
+.filter_shops_name {
+  width: 50%;
+}
+
+.filter_shops_province {
+  width: 237px;
+}
+
+.filter_value_warrd ul {
+  overflow: auto !important;
+  max-height: 600px;
+}
+
+.btn_filter_shop {
+  line-height: 1rem;
+  font-size: 16px;
+  color: #fff;
+  padding: 0 15px;
+  height: 42px;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+  background-color: var(--theme-color);
+  border: 1px solid #CCC;
+}
+
+.btn_filter_shop:hover {
+  outline: 1px solid #ccc;
+  color: #045099;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+/* li.taccc:hover {
+  background-color: #ccc;
+} */
+
+/* li.taccc.selected {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-color: #faebd7;
+} */
+
+li.taccc.selected {
+  border-color: #045099;
+}
+
+.datafilterdistrict {
+  font-style: italic;
+}
+
+.list-shop {
+  padding-top: 20px;
+}
+
+.list-shop li {
+  padding: 10px 15px;
+  cursor: pointer;
+  list-style: none;
+}
+
+ul.no-bullets {
+  padding-left: 0px;
+}
+
+.checkout-form-list input[type=text],
+.checkout-form-list input[type=password],
+.checkout-form-list input[type=email] {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 0;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 0 0 20px;
+  width: 100%;
+  outline: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -ms-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+}
+
+select.filter_value_warrd {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 5%;
+}
+
+.title-store {
+  color: #272727;
+  padding-bottom: 8px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.title-store span {
+  color: #3d3d3d;
+  font-size: 15px;
+  text-transform: initial;
+}
+
+.nice-select.filter_value_warrd {
+  display: block !important;
+  float: none;
+  width: 100%;
+}
+
+.unmargin-row {
+  margin: 0;
+}
+
+#floating-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.popup-map {
+  overflow: hidden;
+  width: 70%;
+}
+
+.close-popup-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  text-align: center;
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+}
+
+/* responsive mobile */
+
+@media (max-width:768px) {
+  .shop-filter {
+    display: block !important;
+    width: 100% !important;
+  }
+
+  .header_filter_shops {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 15px 0;
+  }
+
+  .mobile-device {
+    padding: 0;
+  }
+
+  #map {
+    min-height: 555px;
+  }
+
+  .popup {
+    width: 96%;
+  }
+
+  .popup-map {
+    height: auto;
+  }
+
+  .scroll-y {
+    border: 1px solid #ccc;
+    height: 40px;
+    display: flex;
+    padding: 6px 46px;
+    margin-bottom: 20px;
+    overflow-y: hidden;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    color: black;
+    display: none;
+  }
+
+
+  #floating-panel {
+    display: none;
+  }
+
+  .btn_filter_shop {
+    display: none;
+    width: 100%;
+  }
+
+  .filter_shops_name {
+    width: 100% !important;
+    display: none;
+  }
+
+  .filter_shops_province {
+    display: none;
+  }
+
+  .drop-list {
+    margin: 40px auto 0;
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 500;
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .drop-list span {
+    font-size: 1.1rem;
+  }
+
+  .drop_list-item {
+    position: absolute;
+    z-index: 1000000;
+    background: #fff;
+    width: 100%;
+    overflow: auto;
+    height: auto;
+    left: 0;
+    width: 100%;
+    top: 78px;
+    border: 1px solid #e8e8e8;
+    border-radius: 4px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+
+  /* .selected {
+    background-color: #ccc;
+  } */
+
+  .taccc {
+    margin-bottom: 10px;
+    text-align: start;
+    padding-left: 10px;
+  }
+
+  .shop {
+    font-size: 1rem !important;
+  }
+
+  .datafilterdistrict {
+    line-height: 20px;
+  }
+
+  /* .drop_list-item ul li {} */
+
+  /*
+  .title-store {
+    color: #272727;
+    padding-bottom: 8px;
+    font-weight: 700;
+    margin-top: 20px;
+  }
+
+  .filter_shops_name input {
+    width: 100%;
+    height: 42px !important;
+    border-radius: 5px !important;
+  }
+
+  .filter_shops_province {
+    width: 60% !important;
+    float: left !important;
+    display: grid !important;
+  }
+
+  .title-store span {
+    color: #3d3d3d;
+    font-size: 15px;
+    text-transform: initial;
+  }
+
+  .btn_filter_shop_block {
+    width: 35% !important;
+    float: right !important;
+    display: grid !important;
+    margin-top: 54px !important;
+  }
+
+  .header_filter_shops {
+    display: none;
+  }
+
+  .no-bullets {
+    display: none;
+  }
+
+  .nice-select-shop {
+    width: 100%;
+
+  }
+
+  .nice-select-shop span {
+    display: flex;
+    width: 90%;
+    height: 40px;
+    margin: 16px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nice-select-shop span svg {
+    padding: 0 4px;
+  }  */
+}
